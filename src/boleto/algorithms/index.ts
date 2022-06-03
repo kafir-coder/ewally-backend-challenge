@@ -1,4 +1,4 @@
-export const module10 = (block: string) => {
+export const modulo10 = (block: string) => {
   const summation = block
     .split('')
     .reverse()
