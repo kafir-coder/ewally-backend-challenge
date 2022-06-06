@@ -15,3 +15,8 @@ export const getAgreementBarcode = (dline: string) => {
   }
   return barcode;
 };
+
+export const getBarcode = (dline: string, type: string): string => {
+  if (type === 'BANK') return getBankBarcode(dline);
+  return getAgreementBarcode(dline);
+};
