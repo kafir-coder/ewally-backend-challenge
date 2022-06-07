@@ -9,7 +9,7 @@ import { badRequest, InsufficientDlineLength } from './errors/';
 import { BoletoService } from './boleto.service';
 import { InvalidDigitableLine } from './errors/invalid-digitable-line';
 
-@Controller('/api/v1/getBoletoDetails')
+@Controller('/api/v1/get-boleto-details')
 export class BoletoController {
   constructor(private readonly boletoService: BoletoService) {}
 
