@@ -5,6 +5,6 @@ services:
     restart: always
     build: .
     environment:
-      - PORT=4002
+      - PORT=3000
     ports:
       - "8080:3000"
