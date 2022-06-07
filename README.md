@@ -16,7 +16,7 @@ npm run test
 
 ## API documentation
 
-You can find the API documentaion simply going to [http://localhost:3000/api](http://localhost:8080/api)
+You can find the API documentaion simply going to [http://localhost:8080/api](http://localhost:8080/api)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
